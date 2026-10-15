@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Producto---Ingeniero-de-ventas-IA---Avanza-Smart/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
