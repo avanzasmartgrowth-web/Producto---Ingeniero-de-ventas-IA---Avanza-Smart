@@ -1,0 +1,6 @@
+{
+  "name": "Ingeniero de Ventas IA · AvanzaSmart",
+  "description": "Landing de venta para Ingeniero de Ventas IA de AvanzaSmart: vendedor técnico automatizado con IA para prospección, calificación y agendamiento 24/7.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

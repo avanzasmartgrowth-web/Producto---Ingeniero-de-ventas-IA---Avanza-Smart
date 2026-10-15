@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-ubuntu: 'Ubuntu', sans-serif;
+  --font-arimo: 'Arimo', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background: #1a1a1a;
+  margin: 0;
+  font-family: 'Arimo', system-ui, sans-serif;
+  color: #e8e8e8;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100dvh;
+  overflow: auto;
+}
