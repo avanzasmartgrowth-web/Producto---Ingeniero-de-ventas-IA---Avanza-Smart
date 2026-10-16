@@ -16,8 +16,12 @@ import {
   ChaosToOrder,
 } from "./graphics";
 
-const FI =
-  "https://wa.me/56971028132?text=Hola%20quiero%20ver%20la%20demo%20del%20agente";
+const WHATSAPP_PHONE = "56944947172";
+const WHATSAPP_MESSAGE =
+  "¡Hola! Me gustaría conocer al Agente de Avanza Smart y saber cómo funciona.";
+const FI = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(
+  WHATSAPP_MESSAGE
+)}`;
 
 const B = {
   night: "#1a1a1a",
